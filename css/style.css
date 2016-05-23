@@ -1,0 +1,64 @@
+#wrapper {
+  width: 80%;
+  max-width: 720px;
+  min-width: 300px;
+  margin: auto;
+}
+
+h1 {
+  color: white;
+  margin: 0px;
+  padding: 20px 10px 10px 10px;
+  display: inline-block;
+  width: 49%;
+  box-sizing: border-box;
+}
+
+.modal-content {
+  border: 1px solid darkgrey ;
+}
+
+.modal-header {
+  background-color: black;
+  color: white;
+  margin: 0px;
+}
+
+
+.card {
+  width: 33%;
+  background-color:  #1a1a1a;
+  color: white;
+  display: inline-block;
+  padding: 15px;
+  border-radius: 6px;
+  margin: .5% 0% 0% 0%;
+}
+
+.card p:first-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card:nth-child(3n + 2),
+.card:nth-child(3n) {
+margin-left: .5%;
+
+}
+
+body {
+  background: #262626;
+}
+
+#btn {
+  vertical-align: middle;
+  width: 50%;
+  text-align: right;
+  display: inline-block;
+}
+
+.btn-lg {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
